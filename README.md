@@ -50,9 +50,9 @@ Make sure you commit your changes to repository when needed. Make sure you use n
 
 1. Add axios to the project
 2. Implement List component. It should show data from http://localhost:4000/data.json in the list. Add columns Name, Email and Friend count.
-3. Implement Form component. Make sure that Form opens with detailed data when clicking on an item in the List. Choose yourself which fields will be editable on the Form. Implement tag and email edit fields.
-4. On the Form you will need an additional form with field with list of other users, a field for amount and action button to send money. Money can be sent only from / to active users. You may want to use vuex. 
-5. Change Home component with List component to ensure that it is the initial page in the system. 
+3. Change Home component with List component to ensure that it is the initial page in the system. 
+5. Implement Form component. Make sure that Form opens with detailed data when clicking on an item in the List. Choose yourself which fields will be editable on the Form. Implement tag and email edit fields.
+4. On the Form component you will need an additional block that has selection field with the list of other users, a field for amount and action button to send money. Money can be sent only from / to active users. You may want to use vuex. 
 6. Add Bootstrap 4 to the project, change custom layout to your taste, would be nice if everything would be centered vertically and horizontally. Responsiveness would be a nice thing to see. 
 
 Evaluation criteria (in order of importance)
